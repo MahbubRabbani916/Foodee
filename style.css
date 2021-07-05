@@ -95,7 +95,8 @@ margin-top: 10%;
         Display:flex;
         box-shadow:10px 10px 40px gray;
         border-radius: 10px;
-        margin: 2% 8%;;
+        margin: 2% 8%;
+        padding-top:20px ;
 
         
     }
