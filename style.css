@@ -43,41 +43,43 @@ body{
     background-image: linear-gradient(#f39c12,rgb(187, 131, 27));
     border-radius: 25px;
     padding: 15px 40px;
-    font-weight: 700;
-    
-    
+    font-weight: 700;    
 }
+
 .content-area{
     display: flex;
-    background-image: url(images/background.png);
-    
-   background-position: center;
-  
-    
-    
+    background-image: url(images/background.png); 
+   background-position: center;    
 }
+
 .right-side{
 margin-top: 10%;
 }
-/**gfy**/
-
-
 
 .bottom-area{
     padding: 6%;
-}  
+} 
+
+.recipe{
+    text-align: center;
+}
+
+.recipe h1{
+    font-size: 40px;
+    color: slategray;
+}
+
+.recipe p{
+    font-size: 20px;
+    color: slategrey;
+}
+
 .container{
     
     display: flex;
-   
-    
-    
-    
-}
+   }
 .food img{
-    width:100%;
-    
-    
+    width:100%;    
 }
 .food{
     width: 30%;
@@ -85,21 +87,20 @@ margin-top: 10%;
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
-    text-align: center;
+    text-align: justify;
 }
  .border-carve img {
      border-radius: 10px;
      
+     
     }
-    #social-site{
+#social-media{
         Display:flex;
         box-shadow:10px 10px 40px gray;
         border-radius: 10px;
-        margin: 2% 8%;
-        padding-top:20px ;
-
-        
-    }
+        margin: 2% 7% 10% 7%;
+        padding:40px ;
+}
     .social-site img{
         
         height: 100px;
@@ -108,10 +109,25 @@ margin-top: 10%;
     .social-site{
         width: 30%;
         padding-left: 3%;
- 
-     }
-    
-    .social-site {
         text-align: center;
+       }
 
+footer{
+        
+        height: 200px;
+        background-color:#130f40 ;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 20px;
+}
+    footer p{
+        color: palegoldenrod;
     }
+    footer h1{
+        font-size: 50px;
+        color: seagreen;
+        }
+    .color-change{
+        color: #eccc68;
+    }
+    
