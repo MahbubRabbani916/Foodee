@@ -48,7 +48,7 @@ body{
 
 .content-area{
     display: flex;
-    background-image: url(images/background.png); 
+    background-image: url(images/bg&other/background.png); 
    background-position: center;    
 }
 
