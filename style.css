@@ -139,6 +139,11 @@ footer{
         .container{
             display:block;
         }
+        .banner h1{
+            font-size: 4rem;
+            text-align: center;
+            
+        }
 
         .half-width{
             width:90%;
